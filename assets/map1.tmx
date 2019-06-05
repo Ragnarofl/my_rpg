@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="17" tilewidth="16" tileheight="16" nextobjectid="45">
+ <tileset firstgid="1" name="Assets" tilewidth="16" tileheight="16" tilecount="675">
+  <image source="forest/Assets.png" width="400" height="432"/>
+ </tileset>
+ <layer name="Calque 2" width="60" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh4oMTIwNDBQB88GMBI8i/IryPNv/Ty66h/6Q9GWnoGgZHoX1wYBoaTf78CcThSHLMyotItDAi5LjTMwDD0/MsH9Bc/njTdgkN8qMYvLv/CgB0jJC7R5W2B4hpQbEdkGTAYgDoO98IAKCxYoJgVCQsAsTIU8zGS7580ND69wwZf2sbmX/T8jw+3kICtaOhHZDcR698wIP4G9SvrCPAvOqaFfw2xuHUzGnszDjF8aogpU/gZMTGuMKOGfz2B2AuIHfC4hVRgSYJbsQFS6yMAYlXnag==
+  </data>
+ </layer>
+ <layer name="Calque de Tile 1" width="60" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzd1klrFEEYh/G3x4tiwB2MehE8eDAxqzkpGjAxq57i0T3GOCKYHBJ3DUFUckjctyQGnasKbnfjCm4fwB3cLoJCXEGfYnqYsqbt6iYdHPLCj5rp6aquf1UXjEi68hyRfMxHAQpRhGKUoBQLUOZIpNWFmz5GqirIUYllqEI1alCLOtRjOVaMkryryLEaa7AW67AeG9CIjWjCpgjzNiMh/ydvGznasR07sBO7sBt7sBf7sD/CvAfEP+tI5u0mRw+O4CiO4ThO4CRO4TTOjJK8XnWJbJdxJeIzm6p+tEr25L1Hzvt4ECJvPOTa2PbYVtvQEpCtXjH313gTIkNnyLz9+OSj1dL/sNuO5bnjnGSbKvP7IJ9v4w7ueszzB9d+4pclgzrTZ3EOvegLkdncTzVHve1w7zsk3ns5EPxR8owxn+MFXnrMcUpMZCqmxfzHuUrfa7iOG2qew8hr6tDuPSjJdRDJ3LsgNcT9X/EN3z36ziNnHvIteR/S9xEe4wmeRpB3IWPMVe+NpPeyN/iwnjWBHBMxCZMxR/62lGsVqLTkfcu83uE9PuBjBHkbGGOIdqW7j7MtY6r/Lhc1jWgyrukWYwkWaZ9TyhH3edZvNRfWxEEMYyzrY85zsza/uM8a+FVXgGf1hXDLZ5zp5MvFDMzErBB51fncoumU7M9bSL4iFKMEpcPIOyjZkbdA5ZLMM66qmnw1qEUd6tHG9XaPZzYYzLwXJPl+m9R7/hlf3LZZ+02dg0TEeatULkmf7XLJPOf69W70YKvrPGd8wMm8N2Hk/Re1DuPpn+MkW7NfkPoD4zLrzA==
+  </data>
+ </layer>
+ <objectgroup name="collision">
+  <object id="2" name="ground" type="block" x="0.666667" y="192.333" width="190.667" height="15"/>
+  <object id="3" name="wall" type="block" x="176" y="208" width="15" height="63"/>
+  <object id="4" name="ground" type="block" x="192" y="256" width="335.333" height="15.6667"/>
+  <object id="7" name="wall" type="block" x="530.333" y="208" width="14.6667" height="63.6667"/>
+  <object id="8" name="ground" type="block" x="529" y="192.333" width="77.6667" height="15"/>
+  <object id="11" name="wall" type="block" x="593.333" y="207.333" width="14.3333" height="32.6667"/>
+  <object id="12" name="ground" type="block" x="593.333" y="240" width="108.333" height="15"/>
+  <object id="16" name="ground" type="block" x="752.333" y="239.667" width="63.6667" height="16.6667"/>
+  <object id="18" name="wall" type="block" x="816.333" y="192" width="17.6667" height="64"/>
+  <object id="19" name="ground" type="block" x="816.333" y="175.667" width="143.667" height="16.3333"/>
+  <object id="20" name="ground" type="block" x="688" y="256" width="77.6667" height="15.6667"/>
+  <object id="22" name="spike" type="hurt" x="701.667" y="244" width="50" height="11.3333"/>
+  <object id="23" name="roof" type="block" x="528.333" y="112.667" width="142.333" height="15.3333"/>
+  <object id="25" name="roof" type="block" x="656.667" y="161" width="63.3333" height="14"/>
+  <object id="26" name="wall" type="block" x="656.333" y="128.667" width="15.6667" height="32"/>
+  <object id="28" name="roof" type="block" x="704.333" y="128" width="95" height="16"/>
+  <object id="29" name="wall" type="block" x="704" y="144.667" width="15.6667" height="15.6667"/>
+  <object id="30" name="roof" type="block" x="784.333" y="96" width="175.333" height="16"/>
+  <object id="31" name="wall" type="block" x="784.667" y="112.333" width="15" height="14.6667"/>
+  <object id="34" name="wall" type="block" x="528.667" y="81" width="15" height="30.3333"/>
+  <object id="35" name="spike" type="hurt" x="593" y="129" width="14.6667" height="12.3333"/>
+  <object id="37" name="spike" type="hurt" x="624.667" y="128.333" width="14.3333" height="13"/>
+  <object id="38" name="spike" type="hurt" x="672.333" y="175.667" width="16" height="12.6667"/>
+  <object id="39" name="spike" type="hurt" x="720.667" y="145" width="14.6667" height="13"/>
+  <object id="40" name="spike" type="hurt" x="753" y="145" width="30" height="12"/>
+  <object id="41" name="spike" type="hurt" x="816.333" y="112.667" width="47.6667" height="13"/>
+  <object id="42" name="spike" type="hurt" x="897.333" y="113" width="30" height="12.3333"/>
+  <object id="43" name="wall" type="block" x="192" y="244.333" width="10" height="11.3333"/>
+  <object id="44" name="ground" type="block" x="368.667" y="246" width="27.6667" height="9"/>
+ </objectgroup>
+</map>
